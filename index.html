@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:wght@200;300;400;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" ></script>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="t/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="t/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="t/favicon-16x16.png">
+<link rel="manifest" href="t/site.webmanifest">
+<link rel="mask-icon" href="t/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo wow animate__animated animate__flipInX">
+            <img src="img/logo.png" alt="" width="125px">
+        </div>
+        <nav class="wow animate__animated animate__lightSpeedInRight">
+            <ul id="menuItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+        <img src="img/cart.png" alt="" width="30px"
+        height="30px">
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+<div class="row">
+    <div class="col-2 wow animate__animated animate__flipInX">
+        <h1>Give Your Workout <br> A New Style!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nostrum fugit repellendus maiores odit temporibus ipsa velit laboriosam.</p>
+        <a href="" class="btn">Explore Now &#8594;</a>
+    </div>
+    <div class="col-2">
+        <img src="img/image1.png" alt="">
+    </div>
+</div>
+</div>
+<!-------------------header section is closed----------------------->
+<div class="categories wow animate__animated animate__zoomIn">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="img/category-1.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="img/category-2.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="img/category-3.jpg" alt="">
+        </div>
+    </div>
+</div>
+</div>
+<!-------------------categories section is closed----------------------->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-1.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-2.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-3.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-4.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-5.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-6.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-7.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-8.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-9.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-10.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-11.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4 wow animate__animated animate__zoomInLeft">
+            <img src="img/product-12.jpg" alt="">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+</div>
+<!-------------------products section is closed----------------------->
+<div class="offer ">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2 wow animate__animated animate__flip">
+                <img src="img/exclusive.png" alt="" class="offer-img">
+            </div>
+            <div class="col-2 wow animate__animated animate__fadeInRight">
+                <p>Exclusively Available on RedStore</p>
+                <h1>Smart Band </h1>
+                <small style="width: 100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus quia provident, qui repellendus ducimus aliquam iste ut deleniti culpa cum quos maiores cupiditate sunt officia quas, ex aspernatur illo.</small>
+                <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------offer section is closed----------------------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3 wow animate__animated animate__fadeOutDown">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quo, voluptate adipisci consequuntur cupiditate officia sapiente minima esse necessitatibus.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="img/user-1.png" alt="">
+                <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3 wow animate__animated animate__fadeOutDown">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quo, voluptate adipisci consequuntur cupiditate officia sapiente minima esse necessitatibus.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="img/user-2.png" alt="">
+                <h3>Mike Smith</h3>
+            </div>
+            <div class="col-3 wow animate__animated animate__fadeOutDown">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quo, voluptate adipisci consequuntur cupiditate officia sapiente minima esse necessitatibus.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="img/user-3.png" alt="">
+                <h3>Mabel Joe</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------testimonial section is closed----------------------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row wow animate__animated animate__lightSpeedInLeft">
+            <div class="col-5">
+                <img src="img/logo-godrej.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-oppo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-coca-cola.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-paypal.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="img/logo-philips.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------brands section is closed----------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App For Anroid and ios mobie phone.</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png" alt="">
+                    <img src="img/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/logo-white.png" alt="">
+                <p>Our Purpose is to Sustainability Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Afflicate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2023 - Neeraj Lalwani</p>
+    </div>
+</div>
+<main>
+    <button id="scrollToTopBtn">Top</button>
+  </main>
+
+<script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuItems.style.maxHeight == "0px"){
+            menuItems.style.maxHeight = "200px";
+
+        }
+        else{
+            menuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+<script>
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var rootElement = document.documentElement;
+
+function scrollToTop() {
+// Scroll to top logic
+rootElement.scrollTo({
+top: 0,
+behavior: "smooth"
+});
+}
+scrollToTopBtn.addEventListener("click", scrollToTop);
+  </script>
+  <!-- <script src="js/wow.min.js"></script> -->
+  <script>
+  new WOW().init();
+  </script>
+</body>
+</html>
